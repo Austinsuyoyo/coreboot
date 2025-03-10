@@ -241,7 +241,7 @@ static const struct {
 	int ports[MAXNUMPORTS]; /* Signed, as we need EOT. */
 } superio_ports_table[] = {
 	{probe_idregs_ali,	{0x3f0, 0x370, EOT}},
-        {probe_idregs_aspeed,   {0x2e, 0x4e, EOT}},
+	{probe_idregs_aspeed,   {0x2e, 0x4e, EOT}},
 	{probe_idregs_exar,	{0x2e, 0x4e, EOT}},
 	{probe_idregs_fintek,	{0x2e, 0x4e, EOT}},
 	{probe_idregs_fintek_alternative,	{0x2e, 0x4e, EOT}},
